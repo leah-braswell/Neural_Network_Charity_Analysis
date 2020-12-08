@@ -1,4 +1,4 @@
- # MechaCar_Statistical_Analysis
+# Neural Network Charity Analysis
 Boot Camp Module 19: Neural Networks
 
 ## Overview
