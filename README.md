@@ -1,6 +1,5 @@
 # Neural Network Charity Analysis
 
-
 ## Overview
 Alphabet Soup is a charitable group who grants funds to organizations who seek to do good in the world through projects such as lifesaving technology research and reforestation efforts.  They are asking for a binary classifier to predict which organizations will be successful if granted funds by the foundation.  They have provided information on more than 34,000 organizations who have received funding from Alphabet Soup over the years.  
 
