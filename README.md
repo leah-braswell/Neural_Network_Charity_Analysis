@@ -1,15 +1,15 @@
- # MechaCar_Statistical_Analysis
-Boot Camp Module 19: Neural Networks
+# Neural Network Charity Analysis
+
 
 ## Overview
-Alphabet Soup is a charitable group who grants funds to organizations who   .  They are asking for a binary classifier to predict which organizations will be successful if granted funds by the foundation.  They have provided information on more than 34,000 organizations who have received funding fro Alphabet Soup over the years.  
+Alphabet Soup is a charitable group who grants funds to organizations who seek to do good in the world through projects such as lifesaving technology research and reforestation efforts.  They are asking for a binary classifier to predict which organizations will be successful if granted funds by the foundation.  They have provided information on more than 34,000 organizations who have received funding from Alphabet Soup over the years.  
 
 
 ## Results
 * Data Preprocessing
     * The target for this model is the 'IS_SUCCESSFUL' column.  This target was chosen because the objective of the model is to predict whether or not an organization will successfully use the funds provided by Alphabet Soup.
 
-    * Originally, all variables except the target, EIN, and NAME were used as features.  During optimization, the 'SPECIAL CONSIDERATIONS' column was dropped as a feature as well.  
+    * Originally, all variables except the target, EIN, and NAME were used as features.  During optimization, the 'SPECIAL CONSIDERATIONS' column was also dropped as a feature.  
 
     * EIN and NAME had no bearing on the success of the organization and were, therefore, not used as either features or targets.
 
@@ -33,7 +33,7 @@ Alphabet Soup is a charitable group who grants funds to organizations who   .  T
     * Finally I tried [changing the activation function](pics/change_activation.PNG) on the third layer from relu to sigmoid.  I thought a more binary classifier would help, but it did not improve the [performance of the model.](pics/optimize4.PNG)
 
 ## Summary
-The deep learning model was only able to achieve 72% accuracy even after I made adjustments for optimization.  I would most likely try a Support Vector Model. Since this problem is a pretty straight forward binary classification, an SVM should perform better.  The SVM will consider a more "global" approach to the features and effectively separate non-linear groups. 
+The deep learning model was only able to achieve 72% accuracy even after I made adjustments for optimization.  Were I to continue with this project, I would most likely try a Support Vector Model. Since this problem is a pretty straight forward binary classification, an SVM should perform better.  The SVM will consider a more "global" approach to the features and effectively separate non-linear groups. 
 
 
 
